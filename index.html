@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Variable Rules</title>
+</head>
+<body>
+    <script>
+        // 1. Declare 3 variables in one statement
+        var firstName = "Bilal", lastName = "Ahmed", age = 22;
+
+        // 2. Declare 5 legal & 5 illegal variable names
+        // Legal variable names:
+        var myVariable;
+        var _myVariable;
+        var $myVariable;
+        var myVariable123;
+        var first_name;
+
+        // Illegal variable names:
+        var 123name;  // Starts with a number
+        var my-variable; // Contains hyphen
+        var var; // Reserved keyword
+        var my variable; // Contains space
+        var @myVariable; // Contains special character
+    </script>
+
+    <!-- 3. Display rules in browser -->
+    <h1>Rules for naming JS variables</h1>
+    <p>Variable names can only contain , numbers, $ and <code>_</code>. For example: <code>$my_1stVariable</code></p>
+    <p>Variables must begin with a letter, <code>$</code> or <code>_</code>. For example: <code>$name</code>, <code>_name</code> or <code>name</code></p>
+    <p>Variable names are case <b>sensitive</b>.</p>
+    <p>Variable names should not be JS <b>reserved keywords</b>.</p>
+</body>
+</html>
